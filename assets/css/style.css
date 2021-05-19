@@ -1,0 +1,358 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+!important background-color: white;
+    font-weight: 400;
+    color: black;
+    margin: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .section-content {
+      flex-direction: column !important;
+  }
+
+  .semi-content{
+    width: 100% !important;
+  }
+
+  #s2{
+    background-image: none !important;
+  }
+
+  #sitography-links{
+    column-count: 1 !important;
+  }
+}
+
+.w-100{
+  width: 100%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-70{
+  width: 70%;
+}
+
+.controls {
+  color: white;
+}
+
+a {
+    color: #0094FF;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#navbar a {
+    color: white;
+    font-weight: 600;
+}
+
+navbar a:hover {
+    text-decoration: none;
+}
+
+#navbar {
+    height: 70px;
+    background-color: #37474F;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px 0 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+#navbar-logo-container {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-logo-text-dx {
+    font-weight: bold;
+    margin-left: 1em;
+    width: 200px;
+    text-align: right;
+}
+
+.navbar-logo-text-sx {
+    font-weight: bold;
+    margin-left: 1em;
+    width: 200px;
+}
+
+#navbar-logo-img {
+    background-image: url("../media/icon-navbar.png");
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+}
+
+.store:hover {
+      cursor: pointer;
+      content: url('../media/button-download-hover.png');
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 70px 70px 70px 70px;
+}
+
+.section-title {
+    width: 70%;
+    font-size: 5.5em;
+    color: black;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+.data-title {
+  width: 100%;
+  font-size: 4em;
+  color: black;
+  font-weight: 800;
+  padding-top: 70px;
+}
+
+.image {
+  width: 70%;
+}
+
+.description {
+    width: 30%;
+    padding-left: 200px;
+}
+
+span.section-chapter-title {
+    font-size: 3em;
+    color: black;
+    font-weight: 600;
+}
+
+.section-chapter-link {
+    width: 100%;
+    font-size: 3em;
+    color: #0094FF;
+    font-weight: 800;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.section-chapter-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0 90px 0;
+}
+
+.semi-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 2em;
+}
+
+.section-content p {
+    font-size: 1.3em;
+    margin: 1em 0 0 0;
+}
+
+.section-content p.content-20 {
+    font-size: 1.5em;
+    margin: 1em 0 0 0;
+}
+
+#s1 {
+    padding-right: 0 !important;
+    background-image: url("../media/background-home.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.question-title {
+    width: 70%;
+    font-size: 5.5em;
+    color: black;
+    font-weight: 800;
+    padding-top: 70px;
+}
+
+#s2 {
+    background-image: url("../media/background-teaser.png");
+}
+
+#s2 .semi-content {
+    padding: 1em;
+}
+
+#s2 span.section-title {
+    text-align: center;
+    width: 100%;
+    padding-top: 350px;
+}
+
+#s3 span.section-title {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#s3 span.section-chapter-title {
+    text-align: center;
+    padding: 100px 0px 20px 0px;
+}
+
+#s3 span.sub-title {
+    padding: 0px 400px 40px 400px;
+}
+
+
+.sub-title {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 20px;
+    color: black;
+    font-weight: 400;
+}
+
+.teaser {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.mockup {
+    display: flex;
+    justify-content: center;
+}
+
+.explanation {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+
+.problem {
+    padding: 0px 70px 0px 70px;
+}
+
+#s4 {
+    background-color: #0094FF;
+    color: white;
+    display: flex;
+}
+
+#s4 span.section-title {
+    color: white;
+}
+
+#s4 .section-content {
+    justify-content: left;
+}
+
+#bibliography {
+    margin-right: 4em;
+    width: 25%;
+}
+
+#sitography {
+    margin-right: 2em;
+}
+
+#bibliography > span, #sitography > span {
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+#bibliography > p, #sitography > p {
+    font-size: .7em;
+    font-weight: 300;
+}
+
+#sitography-links {
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 0;
+    column-count: 3;
+    column-gap: 20px;
+    padding: 0;
+}
+
+#sitography-links li {
+    margin-bottom: .5em;
+}
+
+#sitography-links a {
+    text-decoration: none;
+    color: white;
+}
+
+#sitography-links a:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    color: white;
+    display: flex;
+    background-color: #37474F;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px 70px 20px 70px;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-content: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-text span {
+    font-size: 1em;
+    margin-bottom: .5em;
+}
+
+.chart{
+    padding: 70px 0 70px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#s7{
+    background-color: #F8F8F8;
+}
